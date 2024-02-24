@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updatescore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/library.sol": "Lib2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/library.sol": {
+			"keccak256": "0xbd3738dcdf2d8cad565748d3da9f27bef59a9aa271a52d79e58fc9ee8f9d6b53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30ceb0752bc358a5143039ba60ad6b44184afc0e2b781d4607152e3c5fa3b9c9",
+				"dweb:/ipfs/Qme8h57PYFUH7S6bKTkPoebTDMRRskasWe3wumTxBT9dyV"
+			]
+		}
+	},
+	"version": 1
+}

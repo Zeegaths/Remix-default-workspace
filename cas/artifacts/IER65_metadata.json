@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "interfaceID",
+						"type": "bytes"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/ZeeNFT.sol": "IER65"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/ZeeNFT.sol": {
+			"keccak256": "0xf348d6d91f626de84df2a689f1dcf237a83c1d42dfe3f311139616a2e6b1bbcf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4af2ec3ba7cb77744771ee39eeb4152a35bf2c0d69397000780875858841700",
+				"dweb:/ipfs/QmSeb4jmCwyDw6JvocG4A37sCr2aVGcze93mWDw4bzPjjm"
+			]
+		}
+	},
+	"version": 1
+}

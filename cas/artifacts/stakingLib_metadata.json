@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ADDRESS_ZER0_CHECK",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "INSUFFICIENT_BALANCE",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "ZERO_AMOUNT",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "stakingContract",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "SavingSuccessful",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/stakingLib.sol": "stakingLib"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/stakingLib.sol": {
+			"keccak256": "0x6d9a6acf155b08465556b5b6be626efefea5f74e77a2158daf76f159e947f705",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d4789396c9a81e135c8cf17e640edfb44d1580960f6b6f23ec47948528298c3f",
+				"dweb:/ipfs/QmWi8rjXs1BdqxXjzodj9axJBB9TZ7NpXo5n2mv1Fqcgub"
+			]
+		}
+	},
+	"version": 1
+}

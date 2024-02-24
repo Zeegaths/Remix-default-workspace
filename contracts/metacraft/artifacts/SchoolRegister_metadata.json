@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "principal",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/metacraft/Errorhandling.sol": "SchoolRegister"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/metacraft/Errorhandling.sol": {
+			"keccak256": "0x8186ae7e0f0eb88fb41eb0c86ec96c426f107d4fd503665d8dde86452028f870",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ce93cde862c4db78ab78231eff25115a400edd9e171a98628ead3ee311ec4304",
+				"dweb:/ipfs/QmRaT2NffWN8K5WgmChh7KNJzSpNVTzFudgP2oJHyhcXop"
+			]
+		}
+	},
+	"version": 1
+}

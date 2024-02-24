@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/Event.sol": "NFTGatedEvent"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/Event.sol": {
+			"keccak256": "0x7db7e3d99972a3f1915950f0fc1e07cc942b66f1d18d4ecadd0cf17bd611ae32",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2af1d7130b7ab89d7654793d333c6504b076918b0d10f373a2b001f386219941",
+				"dweb:/ipfs/QmUqJQQ8DZJVGanFHwNtfQra6SBF3eYe7qY5F4TDUDc9ML"
+			]
+		}
+	},
+	"version": 1
+}

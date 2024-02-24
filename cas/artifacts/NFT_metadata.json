@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/ZeeNFT.sol": "NFT"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/ZeeNFT.sol": {
+			"keccak256": "0x7d5981612455086c5c25246507ddbae2068fcf72155720c12ab9f371e64c3d4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc779f422bf01a7ae027b2f6930f35fcaad4f111e589f6a76ad20e489fd872fe",
+				"dweb:/ipfs/QmSQtR7xv5UMLkANcJ1wmTDEvAj1sNCTfBaEi4wf5NBKuZ"
+			]
+		}
+	},
+	"version": 1
+}

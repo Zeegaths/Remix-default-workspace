@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/metacraft/Errorhandling.sol": "StudentRegister"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/metacraft/Errorhandling.sol": {
+			"keccak256": "0x5c0256c9325a65c97aaa459a7559b165ba0eabc9c6287235c5c7fb3bcda32996",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://435c81b1f9f4e377a835b273195ab0379e33547e2aa5d4e2be34f0edb4886c63",
+				"dweb:/ipfs/QmQ3dmmQqvi5RJcXu6vUsgM4p36J64PApMiMMQzRnivZct"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "findIndex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cas/library.sol": "Array"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cas/library.sol": {
+			"keccak256": "0x066543472bec07dbe0a6e85e0a532e94912995e525cd6516f35e1158c5fe0cbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ce3dd6046d2ed529280fe9a78bf19c9f5b9a3116af78a19aa0b0a46dcd1260d",
+				"dweb:/ipfs/QmYAbgErtx74uYzAo9jjQyYeBEvNXThT3HaRJjwFoNaXmT"
+			]
+		}
+	},
+	"version": 1
+}

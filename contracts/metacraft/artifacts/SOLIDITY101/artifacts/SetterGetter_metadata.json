@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/metacraft/artifacts/SOLIDITY101/SetterGetter.sol": "SetterGetter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/metacraft/artifacts/SOLIDITY101/SetterGetter.sol": {
+			"keccak256": "0xfa7dfd55a4c57dd29c7f7feef777c17b52b4a4cbc3268e1f0f9f76eec725c442",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9c76aacdbaffb2faad49e6583b879f450e3cf7e1a182e04f3ebda1ac1efe411",
+				"dweb:/ipfs/QmPpnppbqmFeYBfzZrV8ge4SC4oHmajvFn8FNprJbo3xEi"
+			]
+		}
+	},
+	"version": 1
+}
